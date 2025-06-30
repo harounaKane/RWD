@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    width: 25%;
+}
+
+header{
+    margin-bottom: 30px;
+    background-color: gray;
+    padding: 10px;
+}
+
+header img{
+    width: 10%;
+}
+
+h1{
+    display: inline-block;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    background-color: green;
+    padding: 5px;
+}
+
+section{
+    float: left;
+    font-size: 1rem;
+    width: 65%;
+}
+aside{
+    float: right;
+    width: 30%;
+}
+
+/* header, main, section, aside{
+    border: 3px dashed black;
+    margin: 2px;
+    padding: 5px;
+} */
+
+ main::after{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+}
+
+/* Version Tablette */
+@media (max-width: 768px){
+
+    nav a{
+        display: inline-block;
+        margin-top: 2px;
+    }
+
+    section, aside{
+        display: block;
+        width: 100%;
+    }
+    aside{
+        background-color: azure;
+    }
+} 
+
+/*  Version mobile */
+@media (max-width: 600px){
+    nav a{
+        display: block;
+        text-align: center;
+    }
+
+    aside{
+        display: none;
+    }
+}
