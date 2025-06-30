@@ -28,28 +28,20 @@ a{
     padding: 5px;
 }
 
-section{
-    float: left;
-    font-size: 1rem;
-    width: 65%;
-}
-aside{
-    float: right;
-    width: 30%;
+main{
+    display: flex;
+    padding: 15px;
 }
 
-/* header, main, section, aside{
-    border: 3px dashed black;
-    margin: 2px;
-    padding: 5px;
+/* aside{
+    flex: 2;
+}
+
+section{
+    flex: 1;
 } */
 
- main::after{
-    clear: both;
-    content: ".";
-    display: block;
-    height: 0;
-}
+
 
 /* Version Tablette */
 @media (max-width: 768px){
@@ -59,10 +51,10 @@ aside{
         margin-top: 2px;
     }
 
-    section, aside{
-        display: block;
-        width: 100%;
+    main{
+        flex-direction: column;
     }
+
     aside{
         background-color: azure;
     }
