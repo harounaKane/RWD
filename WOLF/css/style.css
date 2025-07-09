@@ -1,0 +1,88 @@
+*{box-sizing: border-box;}
+
+html{
+    font-size: 62.5%;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    background: #444;
+    background-image: url("../img/bg_body.svg");
+    font-family: "Open Sans";
+    font-size: 1.6rem;
+}
+
+header{
+    background: linear-gradient(130deg, white 0%, white 50%, #333 50%, #333 100%);
+    /* padding: 20px 70px; */
+}
+
+/* nav{
+    text-align: right;
+}   
+*/
+
+a{
+    text-decoration: none;
+}
+
+header nav a{
+    display: block;
+    color: white;
+    font-size: 2.5rem;
+} 
+
+nav a:hover{
+    color: #FF9D00;
+}
+
+svg:hover #path4488, svg:hover #path4488-3{
+    fill: red !important;
+}
+
+.content{
+    max-width: 1500px;
+    padding: 30px 90px;
+    margin: 0 auto;
+}
+
+section{
+    text-align: center;
+}
+
+section img{
+    width: 100%;
+}
+
+h1 span, h2 span, h3{color: #FF9D00;}
+
+h2{
+    text-align: left;
+    margin: 20px 0;
+    border-top: 3px solid RGBA(0, 0, 0, 0.08);
+    border-left: 3px solid RGBA(0, 0, 0, 0.08);
+    padding: 15px;
+}
+
+article div div{
+    background-color: white;
+    padding: 10px;
+}
+
+h3{
+    border-bottom: 3px solid #FF9D00;
+}
+
+button{
+    background-color: #FF9D00;
+    width: 100%;
+    border: 0;
+}
+
+.contact i{
+    font-size: 5rem;
+}
