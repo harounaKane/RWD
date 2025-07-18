@@ -1,0 +1,186 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #eeeeee;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  color: RGB(245, 247, 231);
+  background-color: #96b011;
+}
+
+.livraison,
+.nav {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.ribbon {
+  width: 100px;
+  position: absolute;
+  right: 0;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .container {
+  padding: 20px 0;
+}
+
+a {
+  color: RGBA(245, 247, 231, 0.75);
+}
+
+.fa-cart-shopping {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home {
+  text-align: center;
+}
+
+.home h1,
+.home h2 {
+  color: #96b011;
+  margin: 30px 0 30px 0;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
+  color: black;
+}
+
+.home p {
+  margin: 10px 0 30px 0;
+}
+
+.the {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.the h2 {
+  flex-basis: 100%;
+}
+
+section {
+  background-color: white;
+  margin: 20px 0;
+  padding: 20px 0;
+}
+
+.home h2:after {
+  content: "";
+  display: block;
+  border-top: 1px solid #96b011;
+  margin: 0 10px;
+  margin-top: -15px;
+}
+
+.home h2 span {
+  background-color: white;
+  padding: 10px;
+}
+
+.produit {
+  display: flex;
+  flex-direction: row;
+}
+
+.produit article {
+  padding: 25px;
+}
+
+strong {
+  display: block;
+}
+
+button {
+  background-color: #b09067;
+  padding: 10px;
+  border: 0;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav i {
+  display: block;
+  margin-bottom: 5px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+footer {
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  color: RGB(245, 247, 231);
+  background-color: #96b011;
+  text-align: center;
+}
+.bottombar {
+  display: flex;
+  justify-content: space-around;
+  color: RGB(245, 247, 231);
+}
+
+.bottombar h3 {
+  color: #fff;
+}
+
+.bottombar ul li {
+  margin: 10px 0;
+}
