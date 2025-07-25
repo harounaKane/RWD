@@ -41,6 +41,7 @@ header {
   width: 100px;
   position: absolute;
   right: 0;
+  top: 0;
 }
 
 .container {
@@ -213,4 +214,19 @@ ul li {
 
 footer ul li:hover{
   color: bisque;
+}
+
+@media screen and (max-width: 1024px){
+  .container {
+    width: auto;
+    margin: 0 15px;
+  }
+
+  .the a{
+    flex-basis: 50%;
+  }
+
+  .produit{
+    flex-direction: column;
+  }
 }
