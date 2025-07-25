@@ -90,7 +90,8 @@ a {
 }
 
 .home h1,
-.home h2 {
+.home h2,
+.listing h2 {
   color: #96b011;
   margin: 30px 0 30px 0;
 }
@@ -258,7 +259,6 @@ footer ul li:hover{
 
   .nav article{
     flex-basis: 50%;
-    text-align: center;
     margin-top: 25px;
   }
 
