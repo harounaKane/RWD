@@ -1,3 +1,7 @@
+*:hover{
+  transition: all .2s ease 0s;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -55,6 +59,13 @@ nav {
   justify-content: space-between;
 }
 
+header nav a{padding: 10px;}
+
+header nav a:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
 header .container {
   padding: 20px 0;
 }
@@ -110,6 +121,14 @@ h3 {
   flex-basis: 100%;
 }
 
+.the:hover > a{
+  opacity: 0.5;
+}
+
+.the:hover > a:hover{
+  opacity: 1;
+}
+
 section {
   background-color: white;
   margin: 20px 0;
@@ -142,16 +161,31 @@ strong {
   display: block;
 }
 
-button {
+.produit a {
   background-color: #b09067;
   padding: 10px;
   border: 0;
   color: white;
+  text-transform: uppercase;
+}
+
+.produit a:hover{
+  opacity: 0.75;
+}
+
+footer {
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  color: RGB(245, 247, 231);
+  background-color: #96b011;
+  text-align: center;
 }
 
 .nav {
   display: flex;
   justify-content: space-around;
+  padding: 15px;
 }
 
 .nav i {
@@ -163,14 +197,6 @@ ul li {
   list-style-type: none;
 }
 
-footer {
-  background-image: url("../img/bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  color: RGB(245, 247, 231);
-  background-color: #96b011;
-  text-align: center;
-}
 .bottombar {
   display: flex;
   justify-content: space-around;
@@ -183,4 +209,8 @@ footer {
 
 .bottombar ul li {
   margin: 10px 0;
+}
+
+footer ul li:hover{
+  color: bisque;
 }
