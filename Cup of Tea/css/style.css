@@ -137,7 +137,7 @@ section {
   padding: 20px 0;
 }
 
-.home h2:after {
+.ligne h2:after {
   content: "";
   display: block;
   border-top: 1px solid #96b011;
@@ -145,7 +145,7 @@ section {
   margin-top: -15px;
 }
 
-.home h2 span {
+.ligne h2 span {
   background-color: white;
   padding: 10px;
 }
@@ -153,10 +153,6 @@ section {
 .produit {
   display: flex;
   flex-direction: row;
-}
-
-.produit article {
-  padding: 25px;
 }
 
 strong {
@@ -173,6 +169,35 @@ strong {
 
 .produit a:hover{
   opacity: 0.75;
+}
+
+/* Listing */
+.clear::after{
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+
+/* .produit article{
+  display: flex;
+} */
+
+.listing section img:nth-child(1) {
+  float: left;
+  margin: 25px 10px 0 0;
+}
+
+
+.produit article p{
+  margin-bottom: 30px;
+}
+
+
+.produit img{
+  width: 70%;
 }
 
 footer {
@@ -231,6 +256,17 @@ footer ul li:hover{
   .produit{
     flex-direction: column;
   }
+
+  .listing section img:nth-child(1) {display: none;}
+
+  .produit article{
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  /* .produit article a{
+    width: ;
+  } */
 }
 
 @media screen and (max-width: 600px) {
